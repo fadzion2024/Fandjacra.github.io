@@ -1,0 +1,162 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #000;
+    color: #fff;
+}
+
+main{
+    margin: 0 20px;
+}
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 50px;
+    height: 100px
+}
+.active{
+    color:#1ED8CA;
+}
+.green{
+    font-weight: bold;
+    color: #1ED8CA;
+}
+
+header nav a{
+    padding-left: 30px;
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.section1{
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main1{
+    font-size: 1.7rem;
+    text-align: center;
+}
+.section{
+    background-color: gainsboro;
+    padding: 50px 20px;
+}
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.apropos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main2{
+    width: 500px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    margin: auto;
+    background-color: #1ED8CA;
+    width: 200px;
+    border: 2px solid #1ED8CA;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.projet{
+    width: 300px;
+    text-align: center;
+    background-color: #faebd7;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.projetparent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar2 img{
+    border: 2px solid #1ED8CA;
+    border-radius: 50%;
+}
+
+.competence{
+    width: 500px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.competenceparent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+progress{
+    width: 450px;
+    height: 30px;
+   
+}
+  .sidebar {
+    margin-left: 200px;
+  }
+.contact{
+    background-color: #000;
+}
+.contact h2{
+    color: #fff;
+   padding-top: 20px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.form-first-name {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+input[type="text"]{
+    width: 235px;
+    height: 30px;
+    border-radius: 5px;
+}
+#subject{
+    width: 500px;
+}
+input[type="submit"]{
+  display: flex;
+  align-items: center;
+}
+textarea{
+    border-radius: 10px;
+}
+
+footer{
+    height: 70px;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
