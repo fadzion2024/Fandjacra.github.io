@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio de Fandja CAMARA</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Barre de navigation -->
+    <header class="topbar">
+      <div class="name">
+        Fandja <span class="green">CAMARA</span>
+      </div>
+      <nav>
+        <a href="index.html" class="active">Accueil</a>
+        <a href="#about">À propos</a>
+        <a href="#project">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+  </div>
+
+  <main>
+    <!-- Section d’introduction -->
+    <section class="section1">
+      <article class="main1">
+        <p>
+          Je suis <span class="green">Fandja</span>, développeur web en devenir,<br>
+          passionné par le web et le design.
+        </p>
+        <button class="btn" type="button">Voir mes projets</button>
+      </article>
+      <article class="sidebar1">
+        <img src="dev.webp" alt="Illustration développeur web">
+      </article>
+    </section>
+
+    <!-- À propos -->
+    <section id="about" class="about section">
+      <h2>À propos</h2>
+      <div class="apropos">
+        <article class="main2">
+          <p>Je suis <strong>Fandja</strong>, passionné par la création de sites web modernes et interactifs.</p>
+          <p>Actuellement étudiant en <em>développement web</em>, je cherche à améliorer mes compétences en <strong>JavaScript</strong>, <strong>HTML</strong> et <strong>CSS</strong>.</p>
+          <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+          <button class="btn" type="button">Voir mes projets</button>
+        </article>
+        <article class="sidebar2">
+          <img src="Image1.png" alt="Portrait de Fandja Camara">
+        </article>
+      </div>
+    </section>
+
+    <!-- Mes projets -->
+    <section id="project" class="myProject section">
+      <h2>Mes projets</h2>
+      <div class="projetparent">
+        <div class="projet">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ea quisquam esse, autem ducimus repellendus dolores unde magnam aliquam nulla optio.
+          </p>
+          <h4>#HTML #CSS #JS</h4>
+          <button class="btn" type="button">Voir</button>
+        </div>
+
+        <div class="projet">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ea quisquam esse, autem ducimus repellendus dolores unde magnam aliquam nulla optio.
+          </p>
+          <h4>#HTML #CSS #JS</h4>
+          <button class="btn" type="button">Voir</button>
+        </div>
+
+        <div class="projet">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ea quisquam esse, autem ducimus repellendus dolores unde magnam aliquam nulla optio.
+          </p>
+          <h4>#HTML #CSS #JS</h4>
+          <button class="btn" type="button">Voir</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences" class="competences section">
+      <h2>Mes compétences</h2>
+      <div class="competenceparent">
+        <div class="competence">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Gestion de projets <progress value="71" max="100"></progress></li>
+            <li>Résolution de problèmes <progress value="60" max="100"></progress></li>
+            <li>Adaptabilité <progress value="80" max="100"></progress></li>
+            <li>Travail d'équipe <progress value="90" max="100"></progress></li>
+          </ul>
+        </div>
+
+        <div class="competence">
+          <h3>Hard Skills</h3>
+          <ul>
+            <li>HTML <progress value="85" max="100"></progress></li>
+            <li>CSS <progress value="75" max="100"></progress></li>
+            <li>JavaScript <progress value="60" max="100"></progress></li>
+            <li>VS Code <progress value="90" max="100"></progress></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section">
+      <h2>Vous avez un <span class="green">projet en tête</span> ?</h2>
+      <h2>N'hésitez pas à me <span class="green">contacter</span></h2>
+
+      <div class="forms">
+        <form action="#" method="get">
+          <div class="form-first-name">
+            <p class="firstname">
+              <label for="firstname">Votre prénom</label><br>
+              <input type="text" id="firstname" placeholder="Amadou" required>
+            </p>
+            <p class="name">
+              <label for="name">Votre nom</label><br>
+              <input type="text" id="name" placeholder="Bâ" required>
+            </p>
+          </div>
+
+          <p>
+            <label for="subject">Votre sujet</label><br>
+            <input type="text" id="subject" placeholder="Sujet de votre message" required>
+          </p>
+
+          <p>
+            <label for="message">Votre message</label><br>
+            <textarea id="message" name="message" cols="67" rows="10" placeholder="Écrivez votre message ici" required></textarea>
+          </p>
+
+          <input type="submit" value="Envoyer" class="btn">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Design by <strong>Fandja CAMARA</strong> avec ❤️ HTML, CSS, JS</p>
+    <p>Tous droits réservés - 2025</p>
+  </footer>
+</body>
+</html>
